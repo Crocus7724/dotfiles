@@ -1,0 +1,8 @@
+echo 0 > /sys/power/imge_size
+syndaemon -i 0.5 -K -d &
+echo 2 > /sys/module/hid_apple/parameters/fnmode
+
+echo LID0 > /proc/acpi/wakeup
+echo XHC1 > /proc/acpi/wakeup
+echo ARPT > /proc/acpi/wakeup
+exit 0

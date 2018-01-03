@@ -1,0 +1,14 @@
+[Unit]
+Description=uim environment initialization
+Before=xorg.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl --user set-environment XMODIFIERS=@im=fcitx
+ExecStart=/usr/bin/systemctl --user set-environment GTK_IM_MODULE=fcitx
+ExecStart=/usr/bin/systemctl --user set-environment QT_IM_MODULE=fcitx
+ExecStart=/usr/bin/systemctl --user set-environment DefaultImModule=fcitx
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,19 @@
+rofi.modi: combi,drun,window,memo:~/.config/rofi/memo.sh,system:~/.config/rofi/system.sh,ssh
+rofi.combi-modi: drun,window,memo:~/.config/rofi/memo.sh,system:~/.config/rofi/system.sh,ssh
+rofi.font: Inconsolata,28
+rofi.width: 80
+rofi.lines: 8
+rofi.padding: 80
+,
+rofi.fixed-num-lines: true
+rofi.hide-scrollbar: true
+rofi.sidebar-mode: true
+
+rofi.kb-mode-next: Control+Right, Control+bracketright
+rofi.kb-mode-previous: Control+Left, Control+bracketleft
+
+rofi.color-enabled: true
+rofi.color-window: #cc1E272B, argb:ffd99f57, argb:ffd99f57
+rofi.color-normal: argb:00000000, #ccead49b, argb:00000000, #ccd99f57, #dd1e272b
+rofi.color-active: argb:00000000, #ccd78700, argb:00000000, #ccd99f57, #dd1e272b
+rofi.color-urgent: argb:00000000, #ccd75f5f, argb:00000000, #ccd99f57, #dd1e272b
