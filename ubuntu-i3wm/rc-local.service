@@ -1,0 +1,10 @@
+[Unit]
+Description=auto start commands in rc.local  on boot
+
+[Service]
+Type=simple
+ExecStart=/etc/rc.local
+User=root
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,21 @@
+[/]
+foreground-color='rgb(234,212,155)'
+rewrap-on-resize=true
+scrollbar-policy='never'
+palette=['rgb(30,39,43)', 'rgb(104,87,66)', 'rgb(157,106,71)', 'rgb(179,109,67)', 'rgb(120,130,75)', 'rgb(217,159,87)', 'rgb(201,165,84)', 'rgb(234,212,155)', 'rgb(102,102,102)', 'rgb(104,87,66)', 'rgb(157,106,71)', 'rgb(179,109,67)', 'rgb(120,130,75)', 'rgb(217,159,87)', 'rgb(201,165,84)', 'rgb(234,212,155)']
+visible-name='Original'
+cursor-background-color='rgb(255,255,255)'
+use-system-font=false
+cursor-colors-set=true
+highlight-colors-set=true
+use-theme-colors=false
+use-transparent-background=true
+font='Inconsolata 14'
+cursor-foreground-color='rgb(0,0,0)'
+use-theme-transparency=false
+bold-color-same-as-fg=false
+bold-color='rgb(234,212,155)'
+background-color='rgb(30,39,43)'
+background-transparency-percent=20
+highlight-background-color='rgb(95,135,135)'
+highlight-foreground-color='rgb(238,238,238)'

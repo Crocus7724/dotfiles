@@ -1,0 +1,14 @@
+xkb_symbols "ctrl" {
+    replace key <CAPS> { [ Control_L ] };
+    modifier_map Control { <CAPS> };
+    
+    replace key <LWIN> { [ Control_L ] };
+    replace key <LCTL> { [ Super_L ] };
+    modifier_map Control { <LWIN> };
+    modifier_map Mod4 { <LCTL> };
+
+    replace key <RWIN> { [ Super_L ] };
+    modifier_map Mod4 { <RWIN> };
+};
+
+xkb_symbols "change_super_control" {};
