@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/KazukiYamamoto/Documents/graduation-thesis-back/scripts'
+let g:netrw_dirhist_2='/Users/KazukiYamamoto/Downloads/yokou_style_seki'
+let g:netrw_dirhist_3='/Users/KazukiYamamoto/.vim'
